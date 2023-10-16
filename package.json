@@ -33,7 +33,7 @@
     }
   },
   "bin": {
-    "cce": "./dist/index.mjs"
+    "cce": "./bin/cce.mjs"
   },
   "files": [
     "bin",
