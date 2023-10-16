@@ -1,7 +1,7 @@
 {
   "name": "@kkopite/cce",
   "type": "module",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "packageManager": "pnpm@8.8.0",
   "description": "软著源代码文件doc生成",
   "author": "kkopite <kkopitehong@foxmail.com>",
