@@ -1,5 +1,5 @@
 {
-  "name": "copyright-code-extract",
+  "name": "@kkopite/cce",
   "type": "module",
   "version": "0.0.0",
   "packageManager": "pnpm@8.8.0",
@@ -32,7 +32,11 @@
       ]
     }
   },
+  "bin": {
+    "cce": "./dist/index.mjs"
+  },
   "files": [
+    "bin",
     "dist"
   ],
   "scripts": {
@@ -45,6 +49,12 @@
     "test": "vitest",
     "typecheck": "tsc --noEmit",
     "prepare": "simple-git-hooks"
+  },
+  "dependencies": {
+    "add": "^2.0.6",
+    "docx": "^8.2.3",
+    "glob": "^10.3.10",
+    "unconfig": "^0.3.11"
   },
   "devDependencies": {
     "@antfu/eslint-config": "1.0.0-beta.27",
@@ -69,5 +79,8 @@
   },
   "lint-staged": {
     "*": "eslint --fix"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
