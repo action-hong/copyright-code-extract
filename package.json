@@ -51,9 +51,11 @@
     "prepare": "simple-git-hooks"
   },
   "dependencies": {
+    "@types/minimist": "^1.2.3",
     "add": "^2.0.6",
     "docx": "^8.2.3",
     "glob": "^10.3.10",
+    "minimist": "^1.2.8",
     "unconfig": "^0.3.11"
   },
   "devDependencies": {
