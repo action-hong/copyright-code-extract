@@ -1,18 +1,17 @@
 {
-  "name": "pkg-placeholder",
+  "name": "copyright-code-extract",
   "type": "module",
   "version": "0.0.0",
   "packageManager": "pnpm@8.8.0",
-  "description": "_description_",
-  "author": "Anthony Fu <anthonyfu117@hotmail.com>",
+  "description": "软著源代码文件doc生成",
+  "author": "kkopite <kkopitehong@foxmail.com>",
   "license": "MIT",
-  "funding": "https://github.com/sponsors/antfu",
-  "homepage": "https://github.com/antfu/pkg-placeholder#readme",
+  "homepage": "https://github.com/action-hong/copyright-code-extract#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/antfu/pkg-placeholder.git"
+    "url": "git+https://github.com/action-hong/copyright-code-extract.git"
   },
-  "bugs": "https://github.com/antfu/pkg-placeholder/issues",
+  "bugs": "https://github.com/action-hong/copyright-code-extract/issues",
   "keywords": [],
   "sideEffects": false,
   "exports": {
@@ -48,9 +47,10 @@
     "prepare": "simple-git-hooks"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^1.0.0-beta.22",
+    "@antfu/eslint-config": "1.0.0-beta.27",
     "@antfu/ni": "^0.21.8",
     "@antfu/utils": "^0.7.6",
+    "@kkopite/eslint-config": "^0.0.4",
     "@types/node": "^20.8.3",
     "bumpp": "^9.2.0",
     "eslint": "^8.51.0",
