@@ -114,8 +114,7 @@ async function writeCode(code: string, dist: string) {
     ],
   })
   const buffer = await docx.Packer.toBuffer(doc)
-  fs.writeFileSync(dist, buffer)
-
+  fs.writeFileSync(`${dist}.docx`, buffer)
   fs.writeFileSync(`${dist}.txt`, code)
 }
 
@@ -123,8 +122,8 @@ export async function cce({
   page = 30,
   preLine = 50,
   output = [
-    './前30页代码.docx',
-    './后30页代码.docx',
+    './前30页代码',
+    './后30页代码',
   ],
   include = '**/*.{ts,tsx,js,jsx,vue}',
   ignore = [

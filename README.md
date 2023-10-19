@@ -60,7 +60,7 @@ export default {
 [npm-downloads-href]: https://npmjs.com/package/@kkopite/cce
 [bundle-src]: https://img.shields.io/bundlephobia/minzip/@kkopite/cce?style=flat&colorA=080f12&colorB=1fa669&label=minzip
 [bundle-href]: https://bundlephobia.com/result?p=@kkopite/cce
-[license-src]: https://img.shields.io/github/license/antfu/@kkopite/cce.svg?style=flat&colorA=080f12&colorB=1fa669
-[license-href]: https://github.com/antfu/@kkopite/cce/blob/main/LICENSE
+[license-src]: https://img.shields.io/github/license/action-hong/copyright-code-extract.svg?style=flat&colorA=080f12&colorB=1fa669
+[license-href]: https://github.com/action-hong/copyright-code-extract/blob/main/LICENSE
 [jsdocs-src]: https://img.shields.io/badge/jsdocs-reference-080f12?style=flat&colorA=080f12&colorB=1fa669
 [jsdocs-href]: https://www.jsdocs.io/package/@kkopite/cce
